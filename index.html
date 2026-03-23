@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Ferreira Muay Thai</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f7fa;
+        color: #222;
+    }
+
+    header {
+        text-align: center;
+        padding: 60px 20px;
+        background: linear-gradient(135deg, #d10000, #002f6c);
+        color: white;
+    }
+
+.logo {
+    width: 180px;
+    height: auto;
+    margin: 0 auto 30px;
+    display: block;
+    filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
+}
+
+    header h1 {
+    font-size: 2.8rem;
+    margin-top: 10px;
+}
+
+    header p {
+        font-size: 1.2rem;
+        margin: 15px 0;
+        color: #f3f3f3;
+    }
+
+    .botoes {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        background-color: white;
+        color: #d10000;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.3s;
+        border: 2px solid white;
+    }
+
+    .btn:hover {
+    background-color: #002f6c;
+    color: white;
+    border: 2px solid #002f6c;
+    transform: translateY(-2px); /* 🔥 efeito profissional */
+}
+
+    section {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    section h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        color: #d10000;
+    }
+
+    section p {
+        max-width: 600px;
+        margin: auto;
+        color: #444;
+    }
+
+    /* CARDS */
+    .card {
+        background: white;
+        padding: 30px;
+        margin: 20px auto;
+        max-width: 700px;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        border-left: 6px solid #002f6c;
+    }
+
+    .horarios .card {
+        border-left: 6px solid #d10000;
+    }
+
+    .horarios p {
+        margin: 10px 0;
+        font-size: 1.1rem;
+    }
+
+    footer {
+        background: linear-gradient(135deg, #002f6c, #000);
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        color: white;
+    }
+
+    /* BOTÃO WHATSAPP */
+    .whatsapp-fixo {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        padding: 15px;
+        border-radius: 50%;
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        box-shadow: 0 0 10px #25D366;
+        transition: 0.3s;
+    }
+
+    .whatsapp-fixo:hover {
+        transform: scale(1.1);
+    }
+
+    /* RESPONSIVO */
+    @media (max-width: 600px) {
+        header h1 {
+            font-size: 2rem;
+        }
+
+        header p {
+            font-size: 1rem;
+        }
+
+        .btn {
+            width: 100%;
+            max-width: 250px;
+        }
+    }
+
+    .btn i {
+        margin-right: 8px;
+        font-size: 16px;
+    }
+
+</style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo Marco Ferreira Muay Thai" class="logo">
+
+        <h1>Marco Ferreira Muay Thai</h1>
+        <p>Treine Muay Thai de verdade em Rio Claro</p>
+
+        <div class="botoes">
+    <a class="btn" href="https://wa.me/5519992641186" target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+
+    <a class="btn" href="https://www.instagram.com/marco.asferreira" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+
+    <a class="btn" href="https://maps.app.goo.gl/GvYu11GULTDdmVcb9" target="_blank">
+        <i class="fas fa-map-marker-alt"></i> Como chegar
+    </a>
+</div>
+    </header>
+
+    <section>
+    <div class="card">
+        <h2>Sobre a Academia</h2>
+        <p>Treinamentos de Muay Thai com foco em disciplina, técnica e evolução constante.</p>
+    </div>
+</section>
+
+<section class="horarios">
+    <div class="card">
+        <h2>Horários</h2>
+        <p>Terça, Quarta e Quinta: 20:00 às 21:00</p>
+        <p>Sábado: 08:00 às 09:30</p>
+    </div>
+</section>
+
+<section>
+    <div class="card">
+        <h2>Localização</h2>
+        <p>Anexo Academia Bem Estar</p>
+        <p>R. 30, 312 - Jardim Paulista</p>
+        <p>Rio Claro - SP</p>
+    </div>
+</section>
+
+    <footer>
+        <p>© 2026 Marco Ferreira Muay Thai</p>
+    </footer>
+
+    <!-- BOTÃO WHATSAPP FIXO -->
+    <a class="whatsapp-fixo" href="https://wa.me/5519992641186" target="_blank">
+        💬
+    </a>
+
+</body>
+</html>
