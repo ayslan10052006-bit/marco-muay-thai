@@ -157,6 +157,38 @@
         font-size: 16px;
     }
 
+    .unidades {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card-unidade {
+    background: white;
+    padding: 25px;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    border-top: 5px solid #d10000;
+    transition: 0.3s;
+}
+
+.card-unidade:hover {
+    transform: translateY(-5px);
+}
+
+.card-unidade h3 {
+    margin-bottom: 10px;
+    color: #002f6c;
+}
+
+.card-unidade p {
+    margin-bottom: 15px;
+}
+
 </style>
 
 
@@ -179,14 +211,6 @@
         <i class="fab fa-instagram"></i> Instagram
     </a>
 
-    <a class="btn" href="https://maps.app.goo.gl/GvYu11GULTDdmVcb9" target="_blank">
-        <i class="fas fa-map-marker-alt"></i> Academia 1
-        </a>
-
-        <a class="btn" href="https://maps.app.goo.gl/GvYu11GULTDdmVcb9" target="_blank">
-            <i class="fas fa-map-marker-alt"></i> Academia 2
-        </a>
-    </a>
 </div>
     </header>
 
@@ -208,9 +232,28 @@
 <section>
     <div class="card">
         <h2>Localização</h2>
-        <p>Anexo Academia Bem Estar</p>
-        <p>R. 30, 312 - Jardim Paulista</p>
-        <p>Rio Claro - SP</p>
+        <section>
+
+    <div class="unidades">
+
+        <div class="card-unidade">
+            <h3>Academia 1</h3>
+            <p>Anexo Academia Bem Estar</p>
+            <a href="https://maps.app.goo.gl/GvYu11GULTDdmVcb9" target="_blank" class="btn">
+                <i class="fas fa-map-marker-alt"></i> Ver localização
+            </a>
+        </div>
+
+        <div class="card-unidade">
+            <h3>Academia 2</h3>
+            <p>Outra unidade</p>
+            <a href="https://maps.app.goo.gl/GvYu11GULTDdmVcb9" target="_blank" class="btn">
+                <i class="fas fa-map-marker-alt"></i> Ver localização
+            </a>
+        </div>
+
+    </div>
+</section>
     </div>
 </section>
 
